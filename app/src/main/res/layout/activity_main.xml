@@ -12,7 +12,7 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@android:color/transparent"
         android:theme="@style/ThemeOverlay.Material3.ActionBar"
-        app:title="My Alarms"
+        app:title="@string/app_name"
         app:titleTextAppearance="@style/Toolbar.TitleText"
         app:layout_scrollFlags="scroll|enterAlways" />
 
@@ -80,7 +80,7 @@ Start by tapping the ➕ button below!"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Alarms"
+                android:text="Task Timer"
                 android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
