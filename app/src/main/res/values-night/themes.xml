@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TaskSchedular" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryVariant</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!-- FAB style -->
+        <item name="floatingActionButtonStyle">@style/Widget.Alarm.FAB</item>
+
+        <!-- BottomSheet -->
+        <item name="bottomSheetDialogTheme">@style/BottomSheetTheme</item>
+    </style>
+
+    <!-- FAB custom style -->
+    <style name="Widget.Alarm.FAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:backgroundTint">@color/fabColor</item>
+        <item name="rippleColor">@color/fabRipple</item>
+        <item name="elevation">6dp</item>
+    </style>
+
+    <!-- BottomSheet theme -->
+    <style name="BottomSheetTheme" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="android:background">@color/colorBottomSheetBg</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">22sp</item> <!-- Or your preferred size -->
+        <item name="android:textColor">@android:color/background_dark</item>
+    </style>
+
+    <!-- res/values/themes.xml -->
+    <style name="RoundedBottomSheetDialog" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheet</item>
+    </style>
+
+    <style name="CustomBottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/RoundedSheetShape</item>
+    </style>
+
+    <style name="RoundedSheetShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="Theme.MyApp.AlarmFullScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Make status bar transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <!-- Make window fullscreen -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!-- Optional: lock screen visibility -->
+    </style>
+
+</resources>

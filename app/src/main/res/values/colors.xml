@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core colors -->
+    <color name="colorPrimary">#4CAF50</color> <!-- Green 500 -->
+    <color name="colorPrimaryVariant">#388E3C</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#4CAF50</color> <!-- Orange 500 -->
+    <color name="colorSecondaryVariant">#4CAF50</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Backgrounds and surfaces -->
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnBackground">#1A1A1A</color>
+    <color name="colorOnSurface">#333333</color>
+
+    <!-- Error -->
+    <color name="colorError">#D32F2F</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!-- Additional -->
+    <color name="colorDivider">#E0E0E0</color>
+    <color name="colorCardShadow">#22000000</color>
+    <color name="colorInactive">#9E9E9E</color>
+    <color name="colorBottomSheetBg">#FFFFFF</color>
+
+    <!-- FAB -->
+    <color name="fabColor">@color/colorSecondary</color>
+    <color name="fabRipple">#66BB6A</color>
+
+    <!-- Swipe to delete background -->
+    <color name="swipeDeleteBg">#FF5252</color>
+    <color name="swipeDeleteIconTint">#FFFFFF</color>
+
+    <!-- Alarm highlight -->
+    <color name="colorAlarmHighlight">#FFF8E1</color> <!-- Light yellow -->
+
+    <!-- Backgrounds -->
+    <color name="background">#FDFBFF</color>
+    <color name="onBackground">#1C1B1F</color>
+    <color name="surface">#FFFBFE</color>
+    <color name="onSurface">#1C1B1F</color>
+    <color name="surfaceVariant">#E7E0EC</color>
+    <color name="onSurfaceVariant">#49454F</color>
+
+    <!-- Error Colors -->
+    <color name="error">#B3261E</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="errorContainer">#F9DEDC</color>
+    <color name="onErrorContainer">#410E0B</color>
+
+    <!-- Neutral Greys -->
+    <color name="grey_light">#E0E0E0</color>
+    <color name="grey_medium">#BDBDBD</color>
+    <color name="grey_dark">#616161</color>
+    <color name="light_blue">#ADD8E6</color>
+
+    <!-- Utility Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="rippleColor">#33000000</color> <!-- Semi-transparent black -->
+</resources>

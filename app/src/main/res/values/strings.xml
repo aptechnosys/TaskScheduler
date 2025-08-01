@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task Scheduler</string>
+    <string name="stop_alarm">Stop Alarm</string>
+    <string name="wake_up">⏰ Wake up!</string>
+</resources>
